@@ -6,8 +6,6 @@ You may assume that each input would have **exactly one solution**, and you may 
 
 You can return the answer in any order.
 
----
-
 # Brute Force
 
 Enumerate all combinations of two nums
@@ -104,5 +102,5 @@ public:
 ```
 
 Time complexity $O(n\log n)$, Space complexity $O(n)$. 
-(Time require for sorting is $O(n\log n)$)
+(Time required for sorting is $O(n\log n)$)
 
