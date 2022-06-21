@@ -1,4 +1,4 @@
-### 1. Two Sum
+# 1. Two Sum
 
 Given an array of integers *nums* and an integer *target*, return indices of the two numbers such that they add up to *target*.
 
@@ -6,7 +6,7 @@ You may assume that each input would have **exactly one solution**, and you may 
 
 You can return the answer in any order.
 
-# Brute Force
+## Brute Force
 
 Enumerate all combinations of two nums
 
@@ -21,7 +21,7 @@ def twoSum(self, nums, target):
 
 Time complexity $O(n^2)$, Space complexity $O(1)$
 
-# Hash map/Dictionary, trading space for time
+## Hash map/Dictionary, trading space for time
 
 Usa a dictionary to record `comp[y]=ind of x`, where $x+y=target$
 
@@ -54,7 +54,7 @@ public:
 ```
 Time complexity $O(n)$, Space complexity $O(n)$
 
-# Two pointer
+## Two pointer
 
 Apply two pointer on sorted array
 
