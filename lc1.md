@@ -60,6 +60,7 @@ Time complexity $O(n)$, Space complexity $O(n)$
 
 Apply two pointer on sorted array
 
+Python:
 ```python
 def twoSum(self, nums, target):
 	
@@ -74,6 +75,8 @@ def twoSum(self, nums, target):
 		elif nums[l][1]+nums[r][1] < target:
 			l+=1
 ```
+
+C++:
 ```cpp
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -100,5 +103,6 @@ public:
 }
 ```
 
-Time complexity $O(n\log n)$, Space complexity $O(n)$. (Time require for sorting is $O(n\log n)$)
+Time complexity $O(n\log n)$, Space complexity $O(n)$. 
+(Time require for sorting is $O(n\log n)$)
 
